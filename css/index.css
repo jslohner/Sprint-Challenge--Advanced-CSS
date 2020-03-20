@@ -155,6 +155,11 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
+@media (max-width: 500px) {
+  p {
+    font-size: 1.55rem;
+  }
+}
 .container {
   max-width: 800px;
   width: 100%;
@@ -171,7 +176,13 @@ p {
 }
 .navigation h1 {
   font-size: 5rem;
-  padding: 1% 0% 0%;
+  padding-top: 1%;
+}
+@media (max-width: 500px) {
+  .navigation h1 {
+    font-size: 4rem;
+    padding-top: 2%;
+  }
 }
 .navigation .links {
   display: flex;
@@ -186,6 +197,12 @@ p {
   color: #454A59;
   text-decoration: none;
 }
+@media (max-width: 500px) {
+  .navigation .links {
+    width: 80%;
+    padding: 2%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -199,6 +216,11 @@ footer {
 .home .intro .header-img {
   border-radius: 0.5rem;
 }
+@media (max-width: 500px) {
+  .home .intro .header-img {
+    max-width: 100%;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -210,11 +232,34 @@ footer {
   flex-wrap: wrap;
   width: 100%;
 }
+@media (max-width: 500px) {
+  .home .space-images .sky {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images .launch {
+    display: none;
+  }
+}
 .home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images img {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .home .visit-planets {
   padding: 15px;
@@ -255,12 +300,34 @@ footer {
   color: #22283B;
   background-color: #F6F7F8;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text {
+    width: 100%;
+    padding-top: 4%;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    width: 100%;
+    margin: 0;
+  }
 }
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 4%;
+  }
 }
