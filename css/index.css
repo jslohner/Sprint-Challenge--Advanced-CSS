@@ -173,6 +173,10 @@ p {
   background-color: #F6F6F6;
   color: #454A59;
   border-bottom: #F1F1F1;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .navigation h1 {
   font-size: 5rem;
@@ -215,10 +219,12 @@ footer {
 }
 .home .intro .header-img {
   border-radius: 0.5rem;
+  padding-top: 15.5%;
 }
 @media (max-width: 500px) {
   .home .intro .header-img {
     max-width: 100%;
+    padding-top: 18%;
   }
 }
 .home .intro h2 {
