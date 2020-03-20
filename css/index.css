@@ -249,6 +249,7 @@ footer {
   background-color: #22283B;
   border-radius: 0.5rem;
   text-align: center;
+  cursor: pointer;
 }
 .home .walk .walk-text .btn:hover {
   color: #22283B;
