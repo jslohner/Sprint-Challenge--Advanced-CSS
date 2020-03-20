@@ -34,15 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive - Adaptive websites are given designs at certain breakpoints, but they only work with those certain sizes and can have hardcoded points to work with a few different devices.
+Responsive - A fully responsive website takes from fixed, fluid, and adaptive websites so that they will look good and work as intended on almost every device or screen width.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first - Mobile first is when you build a website starting with the mobile design and then work up to desktop. With mobile first you would use the media query min-width.
+Desktop first - Desktop first is when you start with the desktop design and work down to other designs you want to make for the website. With desktop first you would use the media query max-width.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+This makes it so 1rem is equal to 10px, which makes the math you need to do to get the desired font size incredibly easy.
+
 4. How would you describe preprocessing to someone new to CSS?
+
+Preprocessing is basically you giving the preprocessor code in that language's syntax and the preprocessor changing it to a css layout when you run the compiler. This is really useful because it gives you more tools and it allows you to divide different parts of your code into files.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+My favorite concept is @import because it means I can organize my projects much better and it means I don't get even close to as lost when trying to find a certain thing I want to work on. I think the one that gives me the most trouble is knowing how many parameters to pass in to a parametric mixin, but I understand how powerful they can be.
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
+
 
 ## Project Set Up
 
@@ -56,13 +70,13 @@ Follow these steps to set up your project:
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 ### Preprocessor Set up
 
