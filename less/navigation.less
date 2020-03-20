@@ -1,1 +1,25 @@
 // Navigation code here
+
+.navigation {
+	.flex(column nowrap, center, center);
+	background-color: @nav-bg;
+	color: @nav-font;
+	border-bottom: @nav-border;
+
+	h1 {
+		font-size: 5rem;
+		padding: 1% 0% 0%;
+	}
+
+	.links {
+		.flex(row nowrap, space-around, center);
+		width: 25%;
+		padding: 1%;
+
+		a {
+			font-size: 1.6rem;
+			color: @nav-font;
+			text-decoration: none;
+		}
+	}
+}
