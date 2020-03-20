@@ -1,1 +1,39 @@
 // Navigation code here
+
+.navigation {
+	.flex(column nowrap, center, center);
+	background-color: @nav-bg;
+	color: @nav-font;
+	border-bottom: @nav-border;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+	h1 {
+		font-size: 5rem;
+		padding-top: 1%;
+
+		@media @phone {
+			font-size: 4rem;
+			padding-top: 2%;
+		}
+	}
+
+	.links {
+		.flex(row nowrap, space-around, center);
+		width: 25%;
+		padding: 1%;
+
+		a {
+			font-size: 1.6rem;
+			color: @nav-font;
+			text-decoration: none;
+		}
+
+		@media @phone {
+			width: 80%;
+			padding: 2%;
+		}
+	}
+}
