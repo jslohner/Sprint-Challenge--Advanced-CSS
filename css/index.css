@@ -301,6 +301,22 @@ footer {
   background-color: #F6F7F8;
 }
 @media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+    font-size: 2rem;
+    padding: 6%;
+    color: #F6F7F8;
+    background-color: #22283B;
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  .home .walk .walk-text .btn:hover {
+    color: #22283B;
+    background-color: #F6F7F8;
+  }
+}
+@media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
     padding-top: 4%;
